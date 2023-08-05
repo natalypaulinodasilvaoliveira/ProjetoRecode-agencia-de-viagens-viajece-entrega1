@@ -1,0 +1,35 @@
+.cabecalho{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.object-fit-cover{
+    object-fit: cover!important;
+    margin: 10px 20px 10px 20px;
+    padding-left: 7%;
+}
+
+footer {
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+    height: 25%;
+    text-align: center;
+}
+
+.grid-areas-footer {
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+}
+
+.grid-footer{
+    display: grid;
+    gap:2rem;
+}
